@@ -14,6 +14,14 @@ public class Main
         
         Coordinate1 co = new Coordinate1(x,y);
         Coordinate1 co1 = co.clo();
+        if(co1.equals())
+        {
+           log.info("Both are same");
+        }
+        else
+        {
+            log.info("Not Same");
+        }
         log.info(Boolean.toString(co1.equals()));
     }
 }

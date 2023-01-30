@@ -22,6 +22,5 @@ public class Main
         {
             log.info("Not Same");
         }
-        log.info(Boolean.toString(co1.equals()));
     }
 }
